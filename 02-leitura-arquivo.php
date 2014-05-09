@@ -4,7 +4,8 @@ $pacientes= file ("upload/paciente.csv");
         if($indice == 0) continue;
         $pac = explode(";" , $paciente);
         
-         echo $indice . "<br>";        
+         echo $indice . "<br>";   
+         
         }
 ?>
 
